@@ -1,6 +1,6 @@
 /* (: Sreejith Codes :) */
 
-#include    <bits/stdc++.h>
+#include <bits/stdc++.h>
 
 #define 	ll 	long long
 #define 	ld 	long double
@@ -13,8 +13,15 @@
 
 using namespace std;
 
+void fast(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);  
+}
+
 int main()
 {
+    fast();
     char b;
     vector < pair < ll,ll > > v;
     ll m,n;
